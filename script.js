@@ -1,3 +1,4 @@
+'use strict';
 /* ===== HOMEWORK 1 ===== */
 
 
@@ -27,7 +28,7 @@ if (score < 50) {
 // NEW IF STATEMENT //
 let userName = 'mariami';
 
-let resultCondition = userName = 'mariami' ? 'true' : 'false';
+let resultCondition = userName == 'mariami' ? 'true' : 'false';
 
 console.log(resultCondition);
 
@@ -35,7 +36,7 @@ console.log(resultCondition);
 // OLD IF STATEMENT //
 let name = 'mariami'
 
-if (name = 'mariami'){
+if (name == 'mariami'){
     console.log('true')
 } else{
     console.log('false')
